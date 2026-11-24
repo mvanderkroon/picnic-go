@@ -1,0 +1,41 @@
+{
+  "type": "ORDER",
+  "id": "shopping_cart",
+  "items": [
+    {
+      "type": "ORDER_LINE",
+      "id": "line-1",
+      "items": [
+        {
+          "type": "ORDER_ARTICLE",
+          "id": "s1001234",
+          "name": "Picnic uien",
+          "unit_quantity": "1 kilo",
+          "price": 129,
+          "max_count": 99,
+          "decorators": [{"type": "QUANTITY", "quantity": 2}]
+        }
+      ],
+      "display_price": 258,
+      "price": 258
+    },
+    {
+      "type": "ORDER_LINE",
+      "id": "line-2",
+      "items": [
+        {
+          "type": "ORDER_ARTICLE",
+          "id": "s1005678",
+          "name": "Rode uien",
+          "unit_quantity": "500 gram",
+          "price": 199,
+          "decorators": [{"type": "UNIT_QUANTITY", "unit_quantity_text": "500 gram"}]
+        }
+      ],
+      "price": 199
+    }
+  ],
+  "delivery_slots": [],
+  "total_count": 3,
+  "total_price": 457.0
+}

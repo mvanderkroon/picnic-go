@@ -1,0 +1,63 @@
+{
+  "id": "search-page-results",
+  "header": {
+    "child": {
+      "type": "SELLING_UNIT_TILE",
+      "sellingUnit": {"id": "s9999999", "name": "In the header, not a result"}
+    }
+  },
+  "body": {
+    "type": "BLOCK",
+    "child": {
+      "type": "STATE_BOUNDARY",
+      "id": "search-results",
+      "children": [
+        {
+          "type": "BLOCK",
+          "children": [
+            {
+              "type": "SELLING_UNIT_TILE",
+              "id": "selling-unit-s1001234-tile",
+              "sellingUnit": {
+                "id": "s1001234",
+                "name": "Picnic uien",
+                "display_price": 129,
+                "image_id": "img-uien",
+                "unit_quantity": "1 kilo",
+                "unit_quantity_sub": "€1.29/kg",
+                "max_count": 99,
+                "decorators": []
+              },
+              "pml": {"component": {"type": "STACK", "accessibilityLabel": "Picnic uien"}}
+            },
+            {
+              "type": "TEXT",
+              "markdown": "#(#333333)Meer resultaten#(#333333)"
+            },
+            {
+              "type": "PROMOTION_BANNER",
+              "sellingUnit": {"id": "s7777777", "name": "A banner, not a result"}
+            }
+          ]
+        },
+        {
+          "type": "SELLING_UNIT_TILE",
+          "id": "selling-unit-s1005678-tile",
+          "sellingUnit": {
+            "id": "s1005678",
+            "name": "Rode uien",
+            "display_price": 199.0,
+            "image_id": "img-rode-uien",
+            "unit_quantity": "500 gram",
+            "max_count": 50
+          }
+        },
+        {
+          "type": "SELLING_UNIT_TILE",
+          "id": "selling-unit-s1001234-tile-again",
+          "sellingUnit": {"id": "s1001234", "name": "Picnic uien"}
+        }
+      ]
+    }
+  }
+}
